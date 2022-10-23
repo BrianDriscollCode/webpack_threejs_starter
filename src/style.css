@@ -17,21 +17,17 @@ html {
     outline: none;
 }
 
-.change_level_button {
-
-    color: black;
-    background-color: white;
-}
-
-.interface_container
+.section
 {
-    position: absolute;
+    display: flex;
+    align-items: center;
     height: 100vh;
-    width: 100%;
-
-}
-
-.level_title {
-    color: white;
+    position: relative;
+    font-family: 'Cabin', sans-serif;
+    color: #ffeded;
+    text-transform: uppercase;
+    font-size: 7vmin;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
